@@ -22,7 +22,7 @@ app.post("/repositories", (request, response) => {
     title,
     url,
     techs,
-    like: 0
+    likes: 0
   };
 
   repositories.push(repository);
